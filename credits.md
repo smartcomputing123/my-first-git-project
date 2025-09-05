@@ -1,2 +1,1 @@
-# Credits
-Created by: Me!
+Created by: My Amazing Self!
