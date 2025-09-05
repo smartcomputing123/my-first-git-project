@@ -1,3 +1,5 @@
-# My Git Project — Master of Git! 💪
+# My Git Project — Master of Branches! 🌿💪
 
-I'm on main branch — no conflicts can stop me!
+I'm learning Git on main AND branches — no conflict can stop me!
+
+> 💡 Successfully merged update-readme branch!
