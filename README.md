@@ -12,3 +12,4 @@ Welcome to my first Git project folder!
 - Git (local only for now)
 
 > 💡 Tip: Run `git log --oneline` to see my progress!
+- Learned how to create branches!
