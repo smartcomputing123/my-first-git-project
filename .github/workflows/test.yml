@@ -13,23 +13,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Node.js (optional)
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Install dependencies (if any)
-        run: echo "No dependencies needed for this demo"
-
-      - name: Run tests
+      - name: Run shell script tests
         run: |
-          echo "🧪 Running tests..."
-          if [ -f FAQ.md ]; then
-            echo "✅ FAQ.md exists — test PASSED"
-          else
-            echo "❌ FAQ.md missing — test FAILED"
-            exit 1
-          fi
+          echo "🚀 Starting CI pipeline..."
+          chmod +x tests/test_config.sh
+          ./tests/test_config.sh
 
       - name: Print success message
-        run: echo "🚀 CI pipeline completed successfully!"
+        run: echo "✅ CI completed successfully!"
