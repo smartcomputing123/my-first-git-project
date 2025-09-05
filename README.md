@@ -1,7 +1,14 @@
-# My First Git Project 🚀
-This is where I'm learning Git — one step at a time.
+## 🧑‍💻 My Git Learning Journey
 
-## ✅ What I’ve Learned So Far
-- How to create a folder
-- How to initialize Git
-- How to create and commit files
+Welcome to my first Git project folder!
+
+### 🎯 Goals
+- Learn core Git commands
+- Feel confident using branches
+- Eventually push to GitHub!
+
+### 🛠️ Tools I'm Using
+- Bash terminal
+- Git (local only for now)
+
+> 💡 Tip: Run `git log --oneline` to see my progress!
