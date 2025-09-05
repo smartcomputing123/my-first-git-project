@@ -1,1 +1,2 @@
 Hello, Git folder!
+Adding a second line
