@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js (optional)
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies (if any)
+        run: echo "No dependencies needed for this demo"
+
+      - name: Run tests
+        run: |
+          echo "🧪 Running tests..."
+          if [ -f FAQ.md ]; then
+            echo "✅ FAQ.md exists — test PASSED"
+          else
+            echo "❌ FAQ.md missing — test FAILED"
+            exit 1
+          fi
+
+      - name: Print success message
+        run: echo "🚀 CI pipeline completed successfully!"
